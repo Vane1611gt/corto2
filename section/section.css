@@ -1,0 +1,29 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ebe4e0 ;
+}
+
+.styled-table th, .styled-table td {
+    padding: 15px;
+    border: 15px solid  #f5efeb;
+}
+
+.styled-table th {
+    background-color: #85db14;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #eb6d19;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #555050;
+}
+
+@media screen and (max-width: 375px) {
+    .styled-table th, .styled-table td {
+        padding: 5px;
+        font-size: 15px;
+    }
+}
